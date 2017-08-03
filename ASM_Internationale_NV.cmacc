@@ -1,4 +1,4 @@
-$ doc = [./Index.js]
+$ doc = [./Index.cmacc]
 $ doc.name = "ASM International N.V."
 
 {{doc}}
