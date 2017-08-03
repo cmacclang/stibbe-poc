@@ -48,7 +48,7 @@ const fetchData = {
 module.exports = (name) => {
     return fetchData.fetchRegisterIssuedCapital()
       .then(x => {
-        const RegisterIssuedCapital = x.filter(x => x.name === name)
-        return RegisterIssuedCapital ? RegisterIssuedCapital[0].capital : '';
+        const registerIssuedCapital = x.filter(x => x.name === name)
+        return registerIssuedCapital[0] ? registerIssuedCapital[0].capital : '';
       })
 };

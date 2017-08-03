@@ -12,5 +12,21 @@ describe('FetchData', () => {
       })
   })
 
+  it('should find all RegisterIssuedCapitalByName', () => {
+
+    return registerIssuedCapitalByName('ASM International N.V.')
+      .then(data => {
+        console.log(data)
+      })
+  })
+
+  it('should find all RegisterIssuedCapitalByName', () => {
+
+    return registerIssuedCapitalByName(null)
+      .then(data => {
+        console.log(data)
+      })
+  })
+
 
 });
