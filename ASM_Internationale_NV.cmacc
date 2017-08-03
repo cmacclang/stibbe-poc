@@ -1,0 +1,4 @@
+$ doc = [./Index.js]
+$ doc.name = "ASM International N.V."
+
+{{doc}}
