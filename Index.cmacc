@@ -1,0 +1,9 @@
+$ name = "ASM International N.V."
+
+$ registerIssuedCapitalByName = [./scripts/RegisterIssuedCapitalByName.js]
+
+$ capital = registerIssuedCapitalByName(name)
+
+# {{name}} 
+
+Het totaal geplaatst kapitaal is: {{capital}}
