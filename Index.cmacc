@@ -7,3 +7,44 @@ $ capital = registerIssuedCapitalByName(name)
 # {{name}} 
 
 Het totaal geplaatst kapitaal is: {{capital}}
+
+---
+
+NOTIFICATION FORM SUBSTANTIAL HOLDING, SHORT POSITION AND SHARES WITH
+SPECIAL RIGHTS AS MEANT IN PART 5.3.3 WFT, Part 1
+
+1. Name of the person obliged to notify:
+
+2. Statutory name of the issuing institution:
+
+3. Substantial holding
+    Total Capital Interest: %
+    - direct actual: % (A)
+    - direct potential: % (C)
+    - indirect actual: % (E)
+    - indirect potential: % (G)
+    
+    Total Voting Rights: %
+    - direct actual: % (B)
+    - direct potential: % (D)
+    - indirect actual: % (F)
+    - indirect potential: % (H)
+    
+4. Short position
+
+    Total Capital Interest: %
+    - direct: % (I)
+    - indirect: % (J)
+    
+5. Date on which the notification duty arose:
+
+6. Name of the controlled undertaking(s) (in case of an indirect holding):
+
+7. Date of shareholders meeting (in case of a proxy):
+
+I hereby confirm that this form has been filled out truthfully:
+
+Name: {{name}}  
+Date:  
+Place:  
+Signature:  
