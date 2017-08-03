@@ -1,4 +1,6 @@
+$ name = "ASM International N.V."
+
 $ doc = [./Index.cmacc]
-$ doc.name = "ASM International N.V."
+$ doc.name = name
 
 {{doc}}

@@ -46,6 +46,7 @@ const fetchData = {
 // const fetchData = require('./FetchData');
 
 module.exports = (name) => {
+    console.log('NAME', name)
     return fetchData.fetchRegisterIssuedCapital()
       .then(x => {
         const registerIssuedCapital = x.filter(x => x.name === name)

@@ -28,5 +28,13 @@ describe('FetchData', () => {
       })
   })
 
+it('should find all RegisterIssuedCapitalByName', () => {
+
+    return registerIssuedCapitalByName('TomTom N.V.')
+      .then(data => {
+        console.log(data)
+      })
+  })
+
 
 });
