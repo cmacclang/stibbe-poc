@@ -1,4 +1,4 @@
-$ name = "ASM International N.V."
+$ name = null
 
 $ registerIssuedCapitalByName = [./scripts/RegisterIssuedCapitalByName.js]
 
